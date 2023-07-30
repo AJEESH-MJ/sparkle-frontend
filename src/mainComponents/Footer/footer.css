@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Default: single column */
+    gap: 36px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* Medium screens: two columns */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr); /* Large screens: four columns */
+    }
+  }
+  
