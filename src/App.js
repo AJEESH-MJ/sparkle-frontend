@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Navbar />
           <Routes>
-            <Route path="sparkle-frontend/" element={<Home /> }/>
+            <Route path="/home" element={<Home /> }/>
           </Routes>
         <Footer />
       </Router>

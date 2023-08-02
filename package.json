@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://AJEESH-MJ.github.io/sparkle-frontend",   
+  "homepage": "https://AJEESH-MJ.github.io/sparkle-frontend/home",   
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,8 +15,6 @@
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.12.1",
     "react-scripts": "5.0.1",
-    "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1",
     "tailwind": "^4.0.0",
     "typeface-montserrat": "^1.1.13",
     "typeface-nunito": "^1.1.13",
