@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://AJEESH-MJ.github.io/sparkle-frontend/home",   
+  "homepage": "https://AJEESH-MJ.github.io/sparkle-frontend",   
   "version": "0.1.0",
   "private": true,
   "dependencies": {
