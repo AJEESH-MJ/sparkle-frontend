@@ -6,7 +6,7 @@ import SocialIcons from "../components/socialIcons.jsx";
 const DropdownMenu = ({ isOpen, handleMenuToggle }) => {
   return (
     <div
-      className={`sm:hidden absolute top-28 right-0 bg-slate-100 p-4 w-full ${
+      className={`sm:hidden absolute top-28 right-0 bg-slate-100 p-4 w-full z-10 ${
         isOpen ? "block" : "hidden"
       }`}
       style={{

@@ -37,7 +37,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between bg-white p-4">
           {/* Logo */}
           <div className="">
-            <img src={logo} alt="logo" className="w-auto h-12" />
+            <img src={logo} alt="logo" className="w-auto h-16 md:h-12" />
           </div>
 
           {/* Contact Details */}
@@ -59,7 +59,7 @@ const Navbar = () => {
             <div className="">
               <FontAwesomeIcon
                 icon={isMenuOpen ? faTimes : faBars}
-                className="text-blue-900 text-3xl cursor-pointer mr-10 mb-2 ml-10"
+                className="text-blue-900 text-3xl cursor-pointer mr-5 mb-2 ml-10"
                 onClick={handleMenuToggle}
               />
             </div>

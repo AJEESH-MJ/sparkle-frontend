@@ -6,37 +6,31 @@ import LogoSection from "../../components/logoSection";
 
 const HomePage = () => {
   return (
-    <div className="min-h-[80vh] mt-10 -z-99">
-      <div className="h-985px px-4 sm:px-6 lg:px-8 shadow-2xl">
+    <div className="min-h-[80vh] -mt-14 md:mt-4 -z-99">
+      <div className="h-985px shadow-2xl">
         <div className="relative">
           <img
             src={home1}
             alt="Background"
-            className="w-full h-80 sm:h-auto object-cover"
+            className="w-full h-[60vh] md:h-[90vh] object-cover"
           />
-          <div className="absolute -top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl text-blue-900 mb-4 font-bold capitalize ml-4 sm:ml-14">
+          <div className="absolute -top-0 -left-3 w-full h-full flex flex-col items-center justify-center">
+            <h1 className="font-nunito-sans text-4xl sm:text-5xl lg:text-6xl text-blue-900 mb-4 font-bold capitalize ml-4 sm:ml-14">
               the face of advertising
             </h1>
-            <h2 className="text-base sm:text-md lg:text-lg 2xl:max-w-[500px] text-blue-900 -mr-2 sm:-mr-10 mb-4 max-w-[420px] sm:max-w-[320px]">
+            <h2 className="font-montserrat text-base sm:text-md lg:text-lg 2xl:max-w-[500px] text-blue-900 -mr-2 sm:-mr-10 mb-4 max-w-[420px] sm:max-w-[320px]">
               Using the power of creativity to build better futures for our
               people, planet, clients, and communities
             </h2>
-
-            <Button
-              text="Know more"
-              className="bg-blue-900 text-white rounded-full font-semibold"
-              onClick={() => {
-                // Handle button click
-              }}
-            />
+            <button className="font-montserrat bg-blue-900 text-white font-semibold text-md md:text-xl py-3 px-8 md:py-3 md:px-8 mb-3 rounded-full">
+              Know more
+            </button>
           </div>
         </div>
       </div>
 
-      <div className="h-[350px] bg-gray-100 flex z-10 flex-col justify-center items-center">
-        {/* Inner div with height 566px and width 917px */}
-        <div className="relative bottom-14 w-[65vw] max-w-[600px] rounded-3xl bg-stone-100 text-left px-4 py-16 mb-10 capitalize shadow-2xl">
+      {/* <div className="h-[350px] bg-gray-100 flex z-10 flex-col justify-center items-center">
+        <div className="relative bottom-14 w-[65vw] max-w-[600px] rounded-3xl bg-stone-100 text-left px-4 md:px-8 py-16 mb-10 capitalize shadow-2xl">
           <h1 className="text-blue-900 text-4xl mb-4 font-bold">who we are</h1>
           <p className="text-blue-900 text-md font-normal">
             Sparkle is an innovative advertisement and print concept development
@@ -47,7 +41,7 @@ const HomePage = () => {
             marketing objectives with fresh and creative approaches.
           </p>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex flex-col justify-center items-center bg-gray-100 w-full p-6 ">
         <div className="flex flex-col md:flex-row">
@@ -120,34 +114,34 @@ const HomePage = () => {
       </div>
 
       <div className="flex flex-col h-[600px] lg:flex-row items-center justify-between px-4 lg:px-12 xl:px-32">
-  <div className="ml-40">
-    <img
-      src={home4}
-      alt="Your Image"
-      className="w-full h-[300px] lg:w-full lg:h-[400px] object-cover"
-    />
-  </div>
-  <div className="mt-6 lg:mt-0 lg:w-1/2 lg:min-w-[320px] p-4 lg:p-10 xl:p-20">
-    <h1 className="text-xl sm:text-2xl lg:text-4xl font-bold mb-4 sm:mb-6 lg:mb-8 text-gray-700 text-left">
-      Design On Demand
-    </h1>
-    <p className="text-base sm:text-lg lg:text-xl mb-4 w-[544px] sm:mb-6 lg:mb-8 text-gray-700 text-left">
-      At Sparkle, we have managed to design on demand, catering to all your
-      creative needs. Whether it's logos, graphics, or websites, our online
-      service delivers stunning results. With a team of experts, we are here to
-      help you shine.
-    </p>
-    <div className="flex flex-col sm:flex-row items-center justify-start mt-4 sm:mt-6 lg:mt-8">
-      <Button
-        text="Start a chat"
-        className="border-gray-700 text-gray-700 px-4 py-2 sm:mr-4 mb-4 sm:mb-0"
-        onClick={() => {
-          // Handle button click
-        }}
-      />
-    </div>
-  </div>
-</div>
+        <div className="ml-40">
+          <img
+            src={home4}
+            alt="Your Image"
+            className="w-full h-[300px] lg:w-full lg:h-[400px] object-cover"
+          />
+        </div>
+        <div className="mt-6 lg:mt-0 lg:w-1/2 lg:min-w-[320px] p-4 lg:p-10 xl:p-20">
+          <h1 className="text-xl sm:text-2xl lg:text-4xl font-bold mb-4 sm:mb-6 lg:mb-8 text-gray-700 text-left">
+            Design On Demand
+          </h1>
+          <p className="text-base sm:text-lg lg:text-xl mb-4 w-[544px] sm:mb-6 lg:mb-8 text-gray-700 text-left">
+            At Sparkle, we have managed to design on demand, catering to all
+            your creative needs. Whether it's logos, graphics, or websites, our
+            online service delivers stunning results. With a team of experts, we
+            are here to help you shine.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-start mt-4 sm:mt-6 lg:mt-8">
+            <Button
+              text="Start a chat"
+              className="border-gray-700 text-gray-700 px-4 py-2 sm:mr-4 mb-4 sm:mb-0"
+              onClick={() => {
+                // Handle button click
+              }}
+            />
+          </div>
+        </div>
+      </div>
 
       <div className="bg-gray-50 flex flex-col lg:flex-row items-center justify-between lg:-ml-20 px-4 lg:px-0">
         <div className="mt-6 lg:mt-0 lg:min-w-[880px] lg:w-1/2 p-4 lg:p-40">

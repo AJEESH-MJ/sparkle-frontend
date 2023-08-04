@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavLinks = ({ isFooter }) => {
   return (
-    <div className={`flex items-center justify-center space-x-8 text-lg mb-4 ${isFooter ? 'text-white flex flex-row' : 'text-blue-900'}`}>
+    <div className={`font-roboto font-semibold flex items-center justify-center space-x-8 text-lg mb-4 ${isFooter ? 'text-white flex flex-row' : 'text-blue-900'}`}>
       {/* Add a conditional rendering */}
       {window.innerWidth <= 887 ? (
         <div className="flex flex-col items-center space-y-4">
