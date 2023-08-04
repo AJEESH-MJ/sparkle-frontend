@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sparkle-frontend/static/css/main.d6440f06.css",
-    "main.js": "/sparkle-frontend/static/js/main.d9673513.js",
+    "main.css": "/sparkle-frontend/static/css/main.03970f14.css",
+    "main.js": "/sparkle-frontend/static/js/main.62b31435.js",
     "static/media/home1.png": "/sparkle-frontend/static/media/home1.0572af8c607aa781b773.png",
     "static/media/home4.png": "/sparkle-frontend/static/media/home4.4974107dc45f84014efd.png",
     "static/media/home5.png": "/sparkle-frontend/static/media/home5.3ea0ac8ac320bc5105b6.png",
@@ -53,11 +53,11 @@
     "static/media/Slogo14.png": "/sparkle-frontend/static/media/Slogo14.918ce5f4f00792623699.png",
     "static/media/Slogo13.png": "/sparkle-frontend/static/media/Slogo13.de8708a49c162922d07e.png",
     "index.html": "/sparkle-frontend/index.html",
-    "main.d6440f06.css.map": "/sparkle-frontend/static/css/main.d6440f06.css.map",
-    "main.d9673513.js.map": "/sparkle-frontend/static/js/main.d9673513.js.map"
+    "main.03970f14.css.map": "/sparkle-frontend/static/css/main.03970f14.css.map",
+    "main.62b31435.js.map": "/sparkle-frontend/static/js/main.62b31435.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6440f06.css",
-    "static/js/main.d9673513.js"
+    "static/css/main.03970f14.css",
+    "static/js/main.62b31435.js"
   ]
 }
