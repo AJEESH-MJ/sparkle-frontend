@@ -7,7 +7,7 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         "nunito-sans": ["Nunito Sans", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
-        
+        "Noto Sans Georgian": ["Noto Sans Georgian", "sans-serif"],
       },
     },
   },

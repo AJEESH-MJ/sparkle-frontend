@@ -32,9 +32,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full flex justify-center">
-      <div style={{ width: "1256px", height: "155px"}}>
-        <nav className="flex items-center justify-between bg-white p-4">
+    <div className="container m-auto w-full flex flex-col justify-center">
+        <nav className="flex items-center justify-between bg-[#FFFFFF] p-4 z-20">
           {/* Logo */}
           <div className="">
             <img src={logo} alt="logo" className="w-auto h-16 md:h-12" />
@@ -85,7 +84,6 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div>
   );
 };
 

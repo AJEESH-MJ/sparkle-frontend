@@ -6,8 +6,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const RequestQuote = () => {
   return (
     <div className="flex flex-col text-left md:ml-0 lg:ml-10 lg:w-72">
-      <h3 className="text-lg font-bold mb-2">Request a Quote</h3>
-      <p className="mb-4">
+      <h3 className="font-montserrat text-lg font-bold mb-2">Request a Quote</h3>
+      <p className="font-nunito-sans mb-4">
         Sign up for our newsletter to receive the latest news, special offers,
         events, and discounts.
       </p>

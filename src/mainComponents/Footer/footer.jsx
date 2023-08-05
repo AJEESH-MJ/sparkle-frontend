@@ -12,10 +12,10 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto px-4 mt-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-between items-start md:items-center">
             <div className="flex flex-col items-start justify-start">
-              <h3 className="text-lg font-bold text-left mt-5 mb-3">
+              <h3 className="font-montserrat text-lg font-bold text-left mt-5 mb-3">
                 About Us
               </h3>
-              <p className="text-left lg:max-w-lg">
+              <p className="font-nunito-sans text-left lg:max-w-lg">
                 Sparkle is an innovative advertisement and print concept
                 development company. We create unique design concepts for Small
                 Medium Enterprises & corporates, specializing in ad design,
@@ -23,7 +23,7 @@ const Footer = () => {
                 services.
               </p>
             </div>
-            <div className="w-full md:w-[20rem]">
+            <div className="font-montserrat w-full md:w-[20rem]">
               <h3 className="text-lg text-left font-bold mt-0 md:mb-0 w-52 md:w-auto md:ml-20">
                 Contact Information
               </h3>
@@ -42,7 +42,7 @@ const Footer = () => {
             <div className="mb-4 md:mb-0">
               <img src={Flogo} alt="Logo" className="w-auto h-12" />
             </div>
-            <div className="text-lg">
+            <div className="font-Noto Sans Georgian text-lg">
               &copy; {new Date().getFullYear()} Sparkle Advertising Inc. All
               rights reserved.
             </div>
