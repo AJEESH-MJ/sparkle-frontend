@@ -29,8 +29,8 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="h-[350px] bg-[#F8F6F3] flex z-10 flex-col justify-center items-center px-5 md:px-0">
-        <div className="relative bottom-14 w-full md:w-[65vw] max-w-[600px] rounded-none md:rounded-3xl bg-[#F8F6F3] text-left px-6 md:px-8 py-16 mb-10 capitalize shadow-2xl">
+      <div className="h-[350px] bg-gradient-to-b bg-[10%] from-[#F8F6F3] to-[#FCFCFC] flex z-10 flex-col justify-center items-center px-5 md:px-0">
+        <div className="relative bottom-14 w-full md:w-[65vw] max-w-[600px] rounded-3xl bg-[#F8F6F3] text-left px-6 md:px-8 py-16 mb-10 capitalize shadow-2xl">
           <h1 className="font-montserrat text-[#143F90] text-2xl md:text-4xl mb-4 font-semibold md:font-bold">
             who we are
           </h1>
@@ -78,7 +78,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b bg-[10%] from-[#FCFCFC] to-[#F99B1C]  px-5 md:px-0">
+      <div className="bg-gradient-to-b bg-[10%] from-[#FCFCFC] to-[#F99B1C] md:px-0">
         <div className="container mx-auto py-10 flex flex-col-reverse md:flex-row md:justify-between">
           <div className="w-full md:w-1/2 pl-0 md:pl-4 mt-14 md:mt-0">
             <h1 className="font-montserrat text-[#143F90] text-4xl md:text-6xl font-bold mb-4 text-left">
